@@ -87,8 +87,8 @@ Essas figuras aparecem no relatório como Figura 1 até a Figura 4.
 Projeto desenvolvido pelos alunos:
 Charles de Souza, Emerson Mafalda Oliveira, Gustavo Henrique da Silva e Patrick Geraldi do Amaral
 
-* **Curso:** Engenharia de Controle e Automação – PUC-Campinas
-* **Disciplina:** 218153 – Sistemas de Visão Computacional
+* **Curso:** Engenharia de Controle e Automação - PUC-Campinas
+* **Disciplina:** 218153 - Sistemas de Visão Computacional
 * **Docente:** Prof. Everton Dias
 
 ## Licença

@@ -7,9 +7,7 @@ O repositório serve tanto como material complementar ao relatório quanto como 
 
 ## Estrutura do Repositório
 
-/ ├── dados/ 
-│ └── 20251029-220949_Walk.csv │ 
-├── codigo/ │ └── PUCC_Grupo_1_Membros_Inferiores.py │ ├── resultados/ │ ├── picos_resumo.csv │ ├── trajetoria_picos.png │ ├── cadencia.png │ ├── simetria.png │ └── autocorrelacao.png │ └── README.md
+/ ├── dados/ │ └── 20251029-220949_Walk.csv │ ├── codigo/ │ └── PUCC_Grupo_1_Membros_Inferiores.py │ ├── resultados/ │ ├── picos_resumo.csv │ ├── trajetoria_picos.png │ ├── cadencia.png │ ├── simetria.png │ └── autocorrelacao.png │ └── README.md
 
 ## Objetivo do Projeto
 

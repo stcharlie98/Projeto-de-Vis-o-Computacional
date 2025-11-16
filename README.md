@@ -77,15 +77,15 @@ Essas figuras aparecem no relatório como Figura 1 até a Figura 4.
 
 ## Limitações conhecidas
 
-* A taxa de amostragem do CSV não é explicitamente definida, sendo inferida pelo script.
-* O sistema de pose estimation utilizado ainda está em testes, portanto pode apresentar ruído elevado, especialmente em articulações distais.
-* Os valores de amplitude não representam altura absoluta, mas sim variação relativa no eixo Y.
+* A taxa de amostragem do CSV não é explicitamente definida, sendo inferida pelo script;
+* O sistema de pose estimation utilizado ainda está em testes, portanto pode apresentar ruído elevado, especialmente em articulações distais;
+* Os valores de amplitude não representam altura absoluta, mas sim variação relativa no eixo Y;
 * O script não realiza calibração geométrica ou reconstrução métrica.
 
 ## 👥 Créditos
 
 Projeto desenvolvido pelos alunos:
-Charles de Souza, Emerson Mafalda Oliveira, Gustavo Henrique da Silva, Patrick Geraldi do Amaral
+Charles de Souza, Emerson Mafalda Oliveira, Gustavo Henrique da Silva e Patrick Geraldi do Amaral
 
 * **Curso:** Engenharia de Controle e Automação – PUC-Campinas
 * **Disciplina:** 218153 – Sistemas de Visão Computacional

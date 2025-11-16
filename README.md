@@ -5,11 +5,11 @@ O objetivo principal é analisar a dinâmica da marcha estacionária a partir de
 
 O repositório serve tanto como material complementar ao relatório quanto como base reprodutível para experimentos futuros.
 
-## Estrutura do Repositório
+## Estrutura do repositório
 
 <img width="466" alt="Estrutura do Repositório" src="assets/estrutura.png">
 
-## Objetivo do Projeto
+## Objetivo do projeto
 
 O projeto investiga a possibilidade de analisar padrões de mobilidade
 utilizando somente coordenadas 3D estimadas por um sistema de visão computacional monocular.
@@ -22,7 +22,7 @@ As métricas avaliadas incluem:
 
 Esses indicadores são relevantes em aplicações de monitoramento funcional, fisioterapia preventiva e análise de marcha em ambientes com recursos limitados como lares de idosos. Nosso foco de estudo é o Recanto dos Velhinhos, localizado em Valinhos, SP.
 
-## Metodologia Resumida
+## Metodologia resumida
 
 O pipeline adotado no script segue as etapas:
 
@@ -30,21 +30,21 @@ O pipeline adotado no script segue as etapas:
     * Verificação de colunas, detecção automática dos nomes dos tornozelos e do eixo temporal.
 
 2.  **Pré-processamento e filtragem**
-    * Interpolação de valores ausentes
-    * Filtro de mediana
-    * Filtro Butterworth (4ª ordem, fase zero) quando disponível
+    * Interpolação de valores ausentes;
+    * Filtro de mediana;
+    * Filtro Butterworth (4ª ordem, fase zero) quando disponível.
 
 3.  **Detecção de picos (passos)**
     * Identificação dos máximos locais correspondentes aos instantes de elevação do pé.
 
 4.  **Cálculo de métricas**
-    * Cadência por janela móvel
-    * Emparelhamento E–D para cálculo de simetria
-    * Autocorrelação do sinal filtrado
+    * Cadência por janela móvel;
+    * Emparelhamento E–D para cálculo de simetria;
+    * Autocorrelação do sinal filtrado.
 
 5.  **Geração das figuras e exportação da tabela final**
 
-## Como Executar o Script
+## Como executar o script
 
 1.  **Instale as dependências necessárias:**
     ```bash
@@ -64,34 +64,32 @@ O pipeline adotado no script segue as etapas:
 
 Os gráficos e o arquivo `picos_resumo.csv` serão salvos automaticamente na pasta definida em `out_dir`.
 
-## Figuras Geradas
+## Figuras geradas
 
 O script produz quatro figuras principais:
 
-* Trajetória vertical dos tornozelos com picos detectados
-* Cadência estimada por janela móvel (10 s)
-* Índice de simetria entre passos
-* Autocorrelação do movimento vertical do tornozelo esquerdo
+* Trajetória vertical dos tornozelos com picos detectados;
+* Cadência estimada por janela móvel (10 s);
+* Índice de simetria entre passos;
+* Autocorrelação do movimento vertical do tornozelo esquerdo.
 
-Essas figuras aparecem no relatório como Figura 1 a Figura 4, respectivamente.
+Essas figuras aparecem no relatório como Figura 1 até a Figura 4.
 
-## Limitações Conhecidas
+## Limitações conhecidas
 
 * A taxa de amostragem do CSV não é explicitamente definida, sendo inferida pelo script.
 * O sistema de pose estimation utilizado ainda está em testes, portanto pode apresentar ruído elevado, especialmente em articulações distais.
 * Os valores de amplitude não representam altura absoluta, mas sim variação relativa no eixo Y.
 * O script não realiza calibração geométrica ou reconstrução métrica.
 
-## Créditos
+## 👥 Créditos
 
 Projeto desenvolvido pelos alunos:
 Charles de Souza, Emerson Mafalda Oliveira, Gustavo Henrique da Silva, Patrick Geraldi do Amaral
 
-Curso: Engenharia de Controle e Automação – PUC-Campinas
-
-Disciplina: 218153 – Sistemas de Visão Computacional
-
-Docente: Prof. Everton Dias
+* **Curso:** Engenharia de Controle e Automação – PUC-Campinas
+* **Disciplina:** 218153 – Sistemas de Visão Computacional
+* **Docente:** Prof. Everton Dias
 
 ## Licença
 

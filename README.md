@@ -82,7 +82,7 @@ Essas figuras aparecem no relatório como Figura 1 até a Figura 4.
 * Os valores de amplitude não representam altura absoluta, mas sim variação relativa no eixo Y;
 * O script não realiza calibração geométrica ou reconstrução métrica.
 
-## 👥 Créditos
+## Créditos
 
 Projeto desenvolvido pelos alunos:
 Charles de Souza, Emerson Mafalda Oliveira, Gustavo Henrique da Silva e Patrick Geraldi do Amaral

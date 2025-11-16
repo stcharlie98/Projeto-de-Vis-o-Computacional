@@ -1,13 +1,15 @@
 # Projeto da disciplina 218153 – Sistemas de Visão Computacional (PUC-Campinas): Análise de Movimentos dos Pés com Visão Computacional
 
-Este repositório reúne o código, dados e figuras utilizados no trabalho “Análise de movimentos dos pés com visão computacional para aplicações em mobilidade funcional”.
+Este repositório reúne o código, dados, vídeo e figuras utilizados no trabalho “Análise de movimentos dos pés com visão computacional para aplicações em mobilidade funcional”.
 O objetivo principal é analisar a dinâmica da marcha estacionária a partir de dados 3D estimados por um sistema de pose estimation, extraindo métricas como amplitude, cadência, simetria e periodicidade.
 
 O repositório serve tanto como material complementar ao relatório quanto como base reprodutível para experimentos futuros.
 
 ## Estrutura do Repositório
 
-/ ├── dados/ │ └── 20251029-220949_Walk.csv │ ├── codigo/ │ └── PUCC_Grupo_1_Membros_Inferiores.py │ ├── resultados/ │ ├── picos_resumo.csv │ ├── trajetoria_picos.png │ ├── cadencia.png │ ├── simetria.png │ └── autocorrelacao.png │ └── README.md
+/ ├── dados/ 
+│ └── 20251029-220949_Walk.csv │ 
+├── codigo/ │ └── PUCC_Grupo_1_Membros_Inferiores.py │ ├── resultados/ │ ├── picos_resumo.csv │ ├── trajetoria_picos.png │ ├── cadencia.png │ ├── simetria.png │ └── autocorrelacao.png │ └── README.md
 
 ## Objetivo do Projeto
 

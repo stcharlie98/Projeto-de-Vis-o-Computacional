@@ -9,17 +9,17 @@ O repositório serve tanto como material complementar ao relatório quanto como 
 
 /
 ├── dados/
-│   └── 20251029-220949_Walk.csv            # arquivo original fornecido pelo professor
+│   └── 20251029-220949_Walk.csv  # arquivo original fornecido pelo professor
 │
 ├── codigo/
 │   └── PUCC_Grupo_1_Membros_Inferiores.py  # script completo de processamento e geração de gráficos
 │
 ├── resultados/
-│   ├── picos_resumo.csv                    # tabela de picos detectados (E/D, tempo e amplitude)
-│   ├── trajetoria_picos.png                # Figura 1
-│   ├── cadencia.png                        # Figura 2
-│   ├── simetria.png                        # Figura 3
-│   └── autocorrelacao.png                  # Figura 4
+│   ├── picos_resumo.csv          # tabela de picos detectados (E/D, tempo e amplitude)
+│   ├── trajetoria_picos.png      # Figura 1
+│   ├── cadencia.png              # Figura 2
+│   ├── simetria.png              # Figura 3
+│   └── autocorrelacao.png        # Figura 4
 │
 └── README.md
 

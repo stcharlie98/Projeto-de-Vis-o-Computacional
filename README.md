@@ -26,7 +26,7 @@ Esses indicadores são relevantes em aplicações de monitoramento funcional, fi
 
 O pipeline adotado no script segue as etapas:
 
-1.  **Carregamento e inspeção do CSV;**
+1.  **Carregamento e inspeção do CSV**
     * Verificação de colunas, detecção automática dos nomes dos tornozelos e do eixo temporal.
 
 2.  **Pré-processamento e filtragem**

@@ -7,7 +7,7 @@ O repositório serve tanto como material complementar ao relatório quanto como 
 
 ## Estrutura do Repositório
 
-<img width="479" height="452" alt="image" src="https://github.com/user-attachments/assets/573b6900-25cc-4ac2-b997-8a731afba44e" />
+<img width="466" height="474" alt="image" src="https://github.com/user-attachments/assets/308e45fc-ca9c-42b9-a87d-0a1668816e47" />
 
 ## Objetivo do Projeto
 
